@@ -3,4 +3,5 @@ def square_array(array)
   array.each |e| do 
     e*=e
   end
+  array
 end
