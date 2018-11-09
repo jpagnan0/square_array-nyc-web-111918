@@ -3,4 +3,5 @@ def square_array(array)
   array.each |e| do 
     e = e**2
   end
+  puts array.inspect
 end
